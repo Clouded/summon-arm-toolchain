@@ -1,0 +1,11 @@
+--- gcc/configure.orig	Sun Mar 31 02:56:14 2013
++++ gcc/configure	Sun Mar 31 02:51:25 2013
+@@ -9158,7 +9158,7 @@
+ else
+ 
+ cat >>confdefs.h <<_ACEOF
+-#define caddr_t char *
++//#define caddr_t char *
+ _ACEOF
+ 
+ fi
